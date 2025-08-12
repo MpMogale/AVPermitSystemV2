@@ -1,0 +1,6 @@
+@AVPermitSystemV2.API_HostAddress = http://localhost:5053
+
+GET {{AVPermitSystemV2.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
