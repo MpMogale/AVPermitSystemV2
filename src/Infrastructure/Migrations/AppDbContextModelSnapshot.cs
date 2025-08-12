@@ -493,7 +493,7 @@ namespace AVPermitSystemV2.Infrastructure.Migrations
                             ContactEmail = "",
                             ContactPhone = "",
                             CountryCode = "SE",
-                            CreatedAt = new DateTime(2025, 7, 30, 20, 57, 57, 210, DateTimeKind.Utc).AddTicks(3197),
+                            CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             CreatedBy = "System",
                             IsActive = true,
                             Name = "Volvo Group"
@@ -506,7 +506,7 @@ namespace AVPermitSystemV2.Infrastructure.Migrations
                             ContactEmail = "",
                             ContactPhone = "",
                             CountryCode = "DE",
-                            CreatedAt = new DateTime(2025, 7, 30, 20, 57, 57, 210, DateTimeKind.Utc).AddTicks(5032),
+                            CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             CreatedBy = "System",
                             IsActive = true,
                             Name = "Mercedes-Benz"
@@ -519,7 +519,7 @@ namespace AVPermitSystemV2.Infrastructure.Migrations
                             ContactEmail = "",
                             ContactPhone = "",
                             CountryCode = "SE",
-                            CreatedAt = new DateTime(2025, 7, 30, 20, 57, 57, 210, DateTimeKind.Utc).AddTicks(5039),
+                            CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             CreatedBy = "System",
                             IsActive = true,
                             Name = "Scania"

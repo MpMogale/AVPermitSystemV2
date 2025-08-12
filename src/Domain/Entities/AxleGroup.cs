@@ -18,7 +18,7 @@ public class AxleGroup
     public int Position { get; set; }
 
     // Auditing
-    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime CreatedAt { get; set; }
     public DateTime? UpdatedAt { get; set; }
     public string CreatedBy { get; set; } = string.Empty;
     public string? UpdatedBy { get; set; }
@@ -43,7 +43,7 @@ public class Axle
     public string TyreSize { get; set; } = string.Empty;
 
     // Auditing
-    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime CreatedAt { get; set; }
     public DateTime? UpdatedAt { get; set; }
     public string CreatedBy { get; set; } = string.Empty;
     public string? UpdatedBy { get; set; }

@@ -29,7 +29,7 @@ public class VehicleEvent
     [StringLength(200)]
     public string Description { get; set; } = string.Empty;
 
-    public DateTime EventDate { get; set; } = DateTime.UtcNow;
+    public DateTime EventDate { get; set; }
 
     [StringLength(100)]
     public string Location { get; set; } = string.Empty;
@@ -44,7 +44,7 @@ public class VehicleEvent
     public string AdditionalData { get; set; } = string.Empty; // JSON for flexible data
 
     // Auditing
-    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime CreatedAt { get; set; }
     public DateTime? UpdatedAt { get; set; }
     public string CreatedBy { get; set; } = string.Empty;
     public string? UpdatedBy { get; set; }

@@ -53,7 +53,7 @@ public class Permit
 
     public PermitStatus Status { get; set; } = PermitStatus.Draft;
 
-    public DateTime ApplicationDate { get; set; } = DateTime.UtcNow;
+    public DateTime ApplicationDate { get; set; }
     public DateTime? ApprovalDate { get; set; }
     public DateTime ValidFromDate { get; set; }
     public DateTime ValidToDate { get; set; }
@@ -67,7 +67,7 @@ public class Permit
     public decimal Fee { get; set; }
 
     // Auditing
-    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime CreatedAt { get; set; }
     public DateTime? UpdatedAt { get; set; }
     public string CreatedBy { get; set; } = string.Empty;
     public string? UpdatedBy { get; set; }

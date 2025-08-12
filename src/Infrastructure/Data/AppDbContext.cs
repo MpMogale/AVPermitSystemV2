@@ -232,9 +232,9 @@ public class AppDbContext : DbContext
     {
         // Seed Manufacturers
         modelBuilder.Entity<Manufacturer>().HasData(
-            new Manufacturer { Id = 1, Name = "Volvo Group", Code = "VOL", CountryCode = "SE", CreatedBy = "System" },
-            new Manufacturer { Id = 2, Name = "Mercedes-Benz", Code = "MB", CountryCode = "DE", CreatedBy = "System" },
-            new Manufacturer { Id = 3, Name = "Scania", Code = "SCA", CountryCode = "SE", CreatedBy = "System" }
+            new Manufacturer { Id = 1, Name = "Volvo Group", Code = "VOL", CountryCode = "SE", CreatedBy = "System", CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
+            new Manufacturer { Id = 2, Name = "Mercedes-Benz", Code = "MB", CountryCode = "DE", CreatedBy = "System", CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc) },
+            new Manufacturer { Id = 3, Name = "Scania", Code = "SCA", CountryCode = "SE", CreatedBy = "System", CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc) }
         );
 
         // Seed VehicleTypes
